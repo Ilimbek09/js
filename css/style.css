@@ -104,17 +104,18 @@ section{
 }
 .btn{
 	border-radius: 118px;
+	border: 2px solid #2C2F24;
 	transition: 0.3s;
-	color: var(--neutral-07, #182226);
+	color: #182226;
     text-align: right;
-    font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px; /* 150% */
     padding: 12px 24px;
 }
 .btn:hover{
-	box-shadow: 0px 6px 5px 2px #836A36;
+	background: #2C2F24;
+	color: #fff;
 }
 .link{
 	transition: 0.3s;
@@ -130,4 +131,23 @@ section{
 
 
 /* header */
-
+.head{
+	padding: 20px 0;
+	align-items: center;
+}
+.menu a{
+	padding: 4px 16px;
+	margin-right: 8px;
+	color: var(--neutral-07, #2C2F24);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+    border-radius: 24px;
+	transition: 0.3;
+}
+.menu li:last-child a{
+	margin-right: 0;
+}
+.menu a:hover{
+	background: #DBDFD0;
+}
